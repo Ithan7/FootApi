@@ -26,7 +26,7 @@ namespace Foot.API.Controllers
             ActionResult result;
             try
             {
-                var connectionString = "Server=192.168.1.15,9999;Database=Test;User Id=Test;Password=Testojbdf;TrustServerCertificate=True;";
+                var connectionString = "Server=192.168.1.15,9999;Database=Test;User Id=Test;Password=Test;TrustServerCertificate=True;";
                 // URL de l'API qui fournit les données des compétitions de football.
                 var url = "https://api.football-data.org/v2/competitions";
                 // Utilisation de la méthode générique pour récupérer et désérialiser les données en un objet Foot.
