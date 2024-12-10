@@ -3,5 +3,6 @@
     public class Foot
     {
         public List<Competition> competitions { get; set; }
+        public
     }
 }
